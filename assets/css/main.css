@@ -1,0 +1,36 @@
+:root {
+    --font-family: DM Sans, Helvetica, Arial, sans-serif;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../../public/fonts/dm-sans-v15-latin_latin-ext-regular.woff2') format('woff2');
+}
+@font-face {
+    font-display: swap;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../../public/fonts/dm-sans-v15-latin_latin-ext-600.woff2') format('woff2');
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.page-enter-active,
+.page-leave-active {
+    transition: all .2s;
+}
+.page-enter-from,
+.page-leave-to {
+    opacity: 0;
+    filter: blur(1rem);
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

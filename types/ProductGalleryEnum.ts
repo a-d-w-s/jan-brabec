@@ -1,0 +1,4 @@
+export enum ProductGalleryItemType {
+    IMAGE = 'PRODUCT_GALLERY_ITEM_TYPE_IMAGE',
+    YOUTUBE = 'PRODUCT_GALLERY_ITEM_TYPE_YOUTUBE'
+}
